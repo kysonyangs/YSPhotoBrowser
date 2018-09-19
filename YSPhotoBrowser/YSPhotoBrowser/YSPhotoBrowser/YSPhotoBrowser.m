@@ -56,7 +56,7 @@ static Class ImageViewClass = nil;
         _currentPage = selectedIndex;
         
         _pageindicatorStyle = YSPhotoBrowserPageIndicatorStyleDot;
-        _loadingStyle = YSPhotoBrowserImageLoadingStyleDeterminate;
+        _loadingStyle = YSPhotoBrowserImageLoadingStyleIndeterminate;
         
         _reusableItemViews = [NSMutableSet set];
         _visibleItemViews = [NSMutableArray array];

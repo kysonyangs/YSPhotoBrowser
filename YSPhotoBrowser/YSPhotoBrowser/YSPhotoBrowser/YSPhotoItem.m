@@ -7,6 +7,8 @@
 //
 
 #import "YSPhotoItem.h"
+#import "YSPhotoBrowser.h"
+#import "YSImageManagerProtocol.h"
 
 @interface YSPhotoItem ()
 
@@ -25,6 +27,8 @@
         _sourceView = view;
         _thumbImage = image;
         _imageUrl = url;
+        _image = [YSPhotoBrowser.imageManagerClass imageForURL:_imageUrl];
+        _finished = _image != nil;
     }
     return self;
 }
