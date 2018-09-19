@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BD43DFD94367C7F1FA6AB53 /* libPods-YSPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973DA679E952A96154E9401F /* libPods-YSPhotoBrowser.a */; };
+		963E66E02152122100BF41A0 /* YSCollectionTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E66DF2152122100BF41A0 /* YSCollectionTestViewController.m */; };
+		963E66E42152123F00BF41A0 /* YSTableTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E66E32152123F00BF41A0 /* YSTableTestViewController.m */; };
+		963E66E7215214F600BF41A0 /* YSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E66E6215214F600BF41A0 /* YSCollectionViewCell.m */; };
+		964904362150E70E0011AB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904352150E70E0011AB05 /* AppDelegate.m */; };
+		964904392150E70E0011AB05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904382150E70E0011AB05 /* ViewController.m */; };
+		9649043C2150E70E0011AB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9649043A2150E70E0011AB05 /* Main.storyboard */; };
+		9649043E2150E7100011AB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9649043D2150E7100011AB05 /* Assets.xcassets */; };
+		964904412150E7100011AB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9649043F2150E7100011AB05 /* LaunchScreen.storyboard */; };
+		964904442150E7100011AB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904432150E7100011AB05 /* main.m */; };
+		9649044D2150E78F0011AB05 /* YSPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649044C2150E78F0011AB05 /* YSPhotoBrowser.m */; };
+		964904502150E7A70011AB05 /* YSPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649044F2150E7A70011AB05 /* YSPhotoView.m */; };
+		964904532150EC190011AB05 /* YSPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904522150EC190011AB05 /* YSPhotoItem.m */; };
+		964904562150EC300011AB05 /* YSProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904552150EC300011AB05 /* YSProgressLayer.m */; };
+		964904592150EC550011AB05 /* YSSDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 964904582150EC550011AB05 /* YSSDImageManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792E63D0BC4160CFB63DF24F /* Pods-YSPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSPhotoBrowser/Pods-YSPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		963E66DE2152122100BF41A0 /* YSCollectionTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSCollectionTestViewController.h; sourceTree = "<group>"; };
+		963E66DF2152122100BF41A0 /* YSCollectionTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSCollectionTestViewController.m; sourceTree = "<group>"; };
+		963E66E22152123F00BF41A0 /* YSTableTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSTableTestViewController.h; sourceTree = "<group>"; };
+		963E66E32152123F00BF41A0 /* YSTableTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSTableTestViewController.m; sourceTree = "<group>"; };
+		963E66E5215214F600BF41A0 /* YSCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSCollectionViewCell.h; sourceTree = "<group>"; };
+		963E66E6215214F600BF41A0 /* YSCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSCollectionViewCell.m; sourceTree = "<group>"; };
+		964904312150E70E0011AB05 /* YSPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964904342150E70E0011AB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		964904352150E70E0011AB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		964904372150E70E0011AB05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		964904382150E70E0011AB05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9649043B2150E70E0011AB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9649043D2150E7100011AB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964904402150E7100011AB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		964904422150E7100011AB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964904432150E7100011AB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9649044B2150E78F0011AB05 /* YSPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSPhotoBrowser.h; sourceTree = "<group>"; };
+		9649044C2150E78F0011AB05 /* YSPhotoBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPhotoBrowser.m; sourceTree = "<group>"; };
+		9649044E2150E7A70011AB05 /* YSPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSPhotoView.h; sourceTree = "<group>"; };
+		9649044F2150E7A70011AB05 /* YSPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPhotoView.m; sourceTree = "<group>"; };
+		964904512150EC190011AB05 /* YSPhotoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSPhotoItem.h; sourceTree = "<group>"; };
+		964904522150EC190011AB05 /* YSPhotoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPhotoItem.m; sourceTree = "<group>"; };
+		964904542150EC300011AB05 /* YSProgressLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSProgressLayer.h; sourceTree = "<group>"; };
+		964904552150EC300011AB05 /* YSProgressLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSProgressLayer.m; sourceTree = "<group>"; };
+		964904572150EC550011AB05 /* YSSDImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSSDImageManager.h; sourceTree = "<group>"; };
+		964904582150EC550011AB05 /* YSSDImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSSDImageManager.m; sourceTree = "<group>"; };
+		9649045A2150EC6A0011AB05 /* YSImageManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSImageManagerProtocol.h; sourceTree = "<group>"; };
+		973DA679E952A96154E9401F /* libPods-YSPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE560B3C8E16A7592969489 /* Pods-YSPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSPhotoBrowser/Pods-YSPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9649042E2150E70E0011AB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD43DFD94367C7F1FA6AB53 /* libPods-YSPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49189DA8F85964DB712DC281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE560B3C8E16A7592969489 /* Pods-YSPhotoBrowser.debug.xcconfig */,
+				792E63D0BC4160CFB63DF24F /* Pods-YSPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		963E66DC215211F000BF41A0 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				963E66E12152122F00BF41A0 /* TableViewController */,
+				963E66DD215211F800BF41A0 /* CollectionViewController */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		963E66DD215211F800BF41A0 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				963E66DE2152122100BF41A0 /* YSCollectionTestViewController.h */,
+				963E66DF2152122100BF41A0 /* YSCollectionTestViewController.m */,
+				963E66E5215214F600BF41A0 /* YSCollectionViewCell.h */,
+				963E66E6215214F600BF41A0 /* YSCollectionViewCell.m */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		963E66E12152122F00BF41A0 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				963E66E22152123F00BF41A0 /* YSTableTestViewController.h */,
+				963E66E32152123F00BF41A0 /* YSTableTestViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		964904282150E70E0011AB05 = {
+			isa = PBXGroup;
+			children = (
+				964904332150E70E0011AB05 /* YSPhotoBrowser */,
+				964904322150E70E0011AB05 /* Products */,
+				49189DA8F85964DB712DC281 /* Pods */,
+				C9A30DAE766D87FA77D4099E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		964904322150E70E0011AB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964904312150E70E0011AB05 /* YSPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964904332150E70E0011AB05 /* YSPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				963E66DC215211F000BF41A0 /* Test */,
+				9649044A2150E77A0011AB05 /* YSPhotoBrowser */,
+				964904342150E70E0011AB05 /* AppDelegate.h */,
+				964904352150E70E0011AB05 /* AppDelegate.m */,
+				964904372150E70E0011AB05 /* ViewController.h */,
+				964904382150E70E0011AB05 /* ViewController.m */,
+				9649043A2150E70E0011AB05 /* Main.storyboard */,
+				9649043D2150E7100011AB05 /* Assets.xcassets */,
+				9649043F2150E7100011AB05 /* LaunchScreen.storyboard */,
+				964904422150E7100011AB05 /* Info.plist */,
+				964904432150E7100011AB05 /* main.m */,
+			);
+			path = YSPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9649044A2150E77A0011AB05 /* YSPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9649044B2150E78F0011AB05 /* YSPhotoBrowser.h */,
+				9649044C2150E78F0011AB05 /* YSPhotoBrowser.m */,
+				9649044E2150E7A70011AB05 /* YSPhotoView.h */,
+				9649044F2150E7A70011AB05 /* YSPhotoView.m */,
+				964904512150EC190011AB05 /* YSPhotoItem.h */,
+				964904522150EC190011AB05 /* YSPhotoItem.m */,
+				964904542150EC300011AB05 /* YSProgressLayer.h */,
+				964904552150EC300011AB05 /* YSProgressLayer.m */,
+				964904572150EC550011AB05 /* YSSDImageManager.h */,
+				964904582150EC550011AB05 /* YSSDImageManager.m */,
+				9649045A2150EC6A0011AB05 /* YSImageManagerProtocol.h */,
+			);
+			path = YSPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		C9A30DAE766D87FA77D4099E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973DA679E952A96154E9401F /* libPods-YSPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964904302150E70E0011AB05 /* YSPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964904472150E7100011AB05 /* Build configuration list for PBXNativeTarget "YSPhotoBrowser" */;
+			buildPhases = (
+				B39042EF3ECBC714D852A0C3 /* [CP] Check Pods Manifest.lock */,
+				9649042D2150E70E0011AB05 /* Sources */,
+				9649042E2150E70E0011AB05 /* Frameworks */,
+				9649042F2150E70E0011AB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSPhotoBrowser;
+			productName = YSPhotoBrowser;
+			productReference = 964904312150E70E0011AB05 /* YSPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964904292150E70E0011AB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = YangShen;
+				TargetAttributes = {
+					964904302150E70E0011AB05 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9649042C2150E70E0011AB05 /* Build configuration list for PBXProject "YSPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964904282150E70E0011AB05;
+			productRefGroup = 964904322150E70E0011AB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964904302150E70E0011AB05 /* YSPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9649042F2150E70E0011AB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964904412150E7100011AB05 /* LaunchScreen.storyboard in Resources */,
+				9649043E2150E7100011AB05 /* Assets.xcassets in Resources */,
+				9649043C2150E70E0011AB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B39042EF3ECBC714D852A0C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9649042D2150E70E0011AB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964904502150E7A70011AB05 /* YSPhotoView.m in Sources */,
+				964904562150EC300011AB05 /* YSProgressLayer.m in Sources */,
+				964904392150E70E0011AB05 /* ViewController.m in Sources */,
+				9649044D2150E78F0011AB05 /* YSPhotoBrowser.m in Sources */,
+				964904532150EC190011AB05 /* YSPhotoItem.m in Sources */,
+				963E66E7215214F600BF41A0 /* YSCollectionViewCell.m in Sources */,
+				964904442150E7100011AB05 /* main.m in Sources */,
+				963E66E02152122100BF41A0 /* YSCollectionTestViewController.m in Sources */,
+				963E66E42152123F00BF41A0 /* YSTableTestViewController.m in Sources */,
+				964904592150EC550011AB05 /* YSSDImageManager.m in Sources */,
+				964904362150E70E0011AB05 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9649043A2150E70E0011AB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9649043B2150E70E0011AB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9649043F2150E7100011AB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964904402150E7100011AB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964904452150E7100011AB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		964904462150E7100011AB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964904482150E7100011AB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE560B3C8E16A7592969489 /* Pods-YSPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32TZ8J928T;
+				INFOPLIST_FILE = YSPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YangShen.YSPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		964904492150E7100011AB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792E63D0BC4160CFB63DF24F /* Pods-YSPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32TZ8J928T;
+				INFOPLIST_FILE = YSPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YangShen.YSPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9649042C2150E70E0011AB05 /* Build configuration list for PBXProject "YSPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964904452150E7100011AB05 /* Debug */,
+				964904462150E7100011AB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964904472150E7100011AB05 /* Build configuration list for PBXNativeTarget "YSPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964904482150E7100011AB05 /* Debug */,
+				964904492150E7100011AB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964904292150E70E0011AB05 /* Project object */;
+}

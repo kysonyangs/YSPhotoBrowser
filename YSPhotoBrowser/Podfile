@@ -1,0 +1,13 @@
+
+platform :ios, '8.0'
+
+def all_pods
+    pod 'YYWebImage', '~> 1.0.5'  
+    pod 'SDWebImage', '~> 4.0'  
+    pod 'SDWebImage/GIF'
+    pod 'FLAnimatedImage', '~> 1.0'
+end
+
+target "YSPhotoBrowser" do
+	all_pods
+end
